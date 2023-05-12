@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./Translator.css";
-import flag from "../assets/flag.png";
+import flag from "../assets/rounded-fotor-bg-remover-20230511224520.png";
 
 const Translator = () => {
   const [inputText, setInputText] = useState("");
@@ -79,7 +79,14 @@ const Translator = () => {
         </select>
       </div>
       <div className=" mb-11">
-        <h1 className=" text-8xl text-white font-semibold mt-20">
+        <div className=" flex justify-center mt-10">
+          <img
+            className=" justify-center w-20"
+            src={flag}
+            alt="china flag"
+          ></img>
+        </div>
+        <h1 className=" text-8xl text-white font-semibold mt-10">
           Chinese mandarin character translator
         </h1>
         <p className=" text-white text-2xl mt-4">
@@ -87,15 +94,8 @@ const Translator = () => {
           you're thinking into it's correspondent chinese simplified character
           or Han
         </p>
-        <div className="  w-full flex justify-center mt-10">
-          <img
-            className="  rounded-full flex justify-center"
-            src={flag}
-            alt="china flag"
-          ></img>
-        </div>
       </div>
-      <div className=" inline-block mt-20">
+      <div className=" inline-block ">
         <form>
           <div>
             <input
