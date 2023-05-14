@@ -100,7 +100,7 @@ const Translator = () => {
           <div>
             <input
               type="text"
-              className="input input-bordered w-full max-w-xs text-white"
+              className="input input-bordered w-full max-w-xs text-white bg-black text-xl"
               placeholder="Enter word to translate"
               onChange={(e) => setInputText(e.target.value)}
               value={inputText}
@@ -116,7 +116,7 @@ const Translator = () => {
             TRANSLATE
           </button>
         </div>
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-96 shadow-xl bg-black">
           <div className="card-body">
             <h2 className="card-title text-white justify-center">
               Your character is...
