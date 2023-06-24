@@ -81,18 +81,18 @@ const Translator = () => {
       <div className=" mb-11">
         <div className=" flex justify-center mt-10">
           <img
-            className=" justify-center w-20"
+            className=" justify-center w-10"
             src={flag}
             alt="china flag"
           ></img>
         </div>
-        <h1 className=" text-8xl text-white font-semibold mt-10">
+        <h1 className=" text-5xl text-white font-semibold mt-10">
           Chinese mandarin character translator
         </h1>
         <p className=" text-white text-2xl mt-4">
           This is a simple app that lets you translate whatever word it is
           you're thinking into it's correspondent chinese simplified character
-          or Han
+          or Hanzi
         </p>
       </div>
       <div className=" inline-block ">
